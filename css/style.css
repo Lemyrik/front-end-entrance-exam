@@ -538,14 +538,14 @@
   display: block;
   margin: 0;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #28D979;
   color: white;
   border: none;
   border-radius: 12px;
   cursor: pointer;
 }
 .download-button:hover {
-  background-color: #0056b3;
+  background-color: #149063;
 }
 
 @media print {
