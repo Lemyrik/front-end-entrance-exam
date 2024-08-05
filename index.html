@@ -1,13 +1,240 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
-  </body>
-</html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible"
+        content="ie=edge"
+  >
+  <title>Malyshka AB CV</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body class="page">
+<div class="content">
+  <header class="header">
+    <div class="header__profile">
+      <figure class="header__photo">
+        <img
+          src="./img/foto.jpg"
+          alt="Фото профиля"
+        >
+      </figure>
+      <figure class="header__info">
+        <p class="header__info__greeting">Hello 👋 I’m</p>
+        <div>
+        <h1 class="header__info__name">Malyshka AB</h1>
+        <p class="header__info__role">Frontend dev</p>
+      </div>
+      </figure>
+    </div>
+
+    <figure class="header__languages">
+      <h2 class="header__languages__title">Languages</h2>
+      <div class="header__languages__list">
+        <p class="header__languages__name">Russian</p>
+        <div class="header__language__progress"></div>
+      </div>
+      <div class="header__languages__list">
+        <p class="header__languages__name">Belarussian</p>
+        <div class="header__language__progress"></div>
+      </div>
+      <div class="header__languages__list">
+        <p class="header__languages__name">English</p>
+        <div class="header__language__progress hindi"></div>
+      </div>
+    </figure>
+  </header>
+
+  <main class="main">
+    <figure class="experience">
+      <h2 class="experience__title">Experience</h2>
+      <div class="experience__list">
+        <div class="experience__item active">
+          <div class="experience__item__header">
+            <p class="experience__item__time">Jul. 2023 - Present</p>
+            <div class="most-recent">
+              <p class="most-recent__title">most recent</p>
+            </div>
+          </div>
+          <div class="experience__item__main">
+            <div class="experience__jobInfo">
+              <h2 class="experience__position">Marketing Manager</h2>
+              <p class="experience__place">Pankayam | Full-time</p>
+            </div>
+            <ul class="experience__featuredPoints">
+              <li class="experience__featuredPoints__point">
+                Strategy development and planning of campaigns that promote the business and generate genuine traffic
+              </li>
+              <li class="experience__featuredPoints__point">
+                SEO Content Creation for Blogs, Website, Social media
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience__item">
+          <div class="experience__item__header">
+            <p class="experience__item__time">2017 - Present</p>
+          </div>
+          <div class="experience__item__main">
+            <div class="experience__jobInfo">
+              <h2 class="experience__position">Graphic / Web designer</h2>
+              <p class="experience__place">Freelance</p>
+            </div>
+            <ul class="experience__featuredPoints">
+              <li class="experience__featuredPoints__point">
+                Development of internal projects from scratch, product design of brands
+              </li>
+              <li class="experience__featuredPoints__point">
+                Landing page, webapps and hybrid apps
+              </li>
+              <li class="experience__featuredPoints__point">
+                Coordinating with outside agencies, art services, web designer, marketing, printers, and colleagues as necessary
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience__item">
+          <div class="experience__item__header">
+            <p class="experience__item__time">Sep. 2021 - Jun. 2023</p>
+          </div>
+          <div class="experience__item__main">
+            <div class="experience__jobInfo">
+              <h2 class="experience__position">Legal Assistant</h2>
+              <p class="experience__place">Law Firm | Intern</p>
+            </div>
+            <ul class="experience__featuredPoints">
+              <li class="experience__featuredPoints__point">
+                Provide administrative support to lawyer and enhance office effectiveness
+              </li>
+              <li class="experience__featuredPoints__point">
+                Handle communication with clients, witnesses etc.
+              </li>
+              <li class="experience__featuredPoints__point">
+                repare case briefs and summarize depositions, interrogatories and testimony
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </figure>
+    <figure class="tools">
+      <h2 class="tools__title">Tools</h2>
+      <div class="tools__items">
+        <div class="tools__item">
+          <div class="tools__item__title">
+            <h3 class="tools__item__title__text">design</h3>
+          </div>
+            <img src="./img/logoFigma.svg" alt="logo">
+            <img src="./img/adobe_photoshop.svg" alt="logo">
+            <img src="./img/adobe_illustrator.svg" alt="logo">
+            <img src="./img/adobe_premiere.svg" alt="logo">
+            <img src="./img/logoNotion.svg" alt="logo">
+            <img src="./img/logoMeet.svg" alt="logo">
+        </div>
+        <div class="tools__item">
+          <div class="tools__item__title">
+            <h3 class="tools__item__title__text">no-code</h3>
+          </div>
+          <img src="./img/logoZapìer 1.svg" alt="logo">
+          <img src="./img/logoWebflow.svg" alt="logo">
+          <img src="./img/logoFramer.svg" alt="logo">
+          <img src="./img/logoWordpress.svg" alt="logo">
+        </div>
+        <div class="tools__item">
+          <div class="tools__item__title">
+            <h3 class="tools__item__title__text">artificial intelligence</h3>
+          </div>
+          <img src="./img/logoChatGPT 1.svg" alt="logo">
+          <img src="./img/logoCopilot 1.svg" alt="logo">
+          <img src="./img/logoMidjourney 1.svg" alt="logo">
+        </div>
+      </div>
+    </figure>
+  </main>
+
+  <footer class="footer">
+    <figure class="education">
+      <h2 class="education__title">Education</h2>
+      <ul class="education__list">
+        <li class="education__item last">
+          <div class="education__item__header">
+            <p class="education__item__year">2023</p>
+            <img src="./img/like.svg" alt="like">
+          </div>
+          <div class="education__item__content">
+            <h3 class="education__item__title">UI/UX</h3>
+            <ul class="education__tags">
+              <li>#UX</li>
+              <li>#UI</li>
+              <li>#research</li>
+              <li>#DesignSystem</li>
+              <li>#Ui</li>
+              <li>#wireframing</li>
+              <li>#figma</li>
+              <li>#Ux</li>
+            </ul>
+          </div>
+          <p class="education__item__footer">Coursera</p>
+        </li>
+
+        <li class="education__item">
+          <div class="education__item__header">
+            <p class="education__item__year">2017 - 2022</p>
+          </div>
+          <div class="education__item__content">
+            <h3 class="education__item__title">Law</h3>
+            <ul class="education__tags green">
+              <li>#law</li>
+              <li>#legalStudies</li>
+              <li>#contracts</li>
+              <li>#internationalLaws</li>
+            </ul>
+          </div>
+          <p class="education__item__footer">University of Kerala</p>
+        </li>
+
+        <li class="education__item">
+          <div class="education__item__header">
+            <p class="education__item__year">2017</p>
+          </div>
+          <div class="education__item__content">
+            <h3 class="education__item__title">Graphic design</h3>
+            <ul class="education__tags green">
+              <li>#branding</li>
+              <li>#web</li>
+              <li>#illustration</li>
+              <li>#adobe</li>
+            </ul>
+          </div>
+          <p class="education__item__footer">Coursera</p>
+        </li>
+      </ul>
+    </figure>
+    <div class="other">
+      <figure class="interests">
+        <h2 class="interests__title">Interests</h2>
+        <ul class="interests__tags">
+          <li class="interests__tag">branding</li>
+          <li class="interests__tag">design</li>
+          <li class="interests__tag">photography</li>
+          <li class="interests__tag">artificial intelligence</li>
+          <li class="interests__tag">illustration</li>
+          <li class="interests__tag">typography</li>
+          <li class="interests__tag">social networks</li>
+          <li class="interests__tag">research</li>
+          <li class="interests__tag">dron pilot</li>
+          <li class="interests__tag">games</li>
+        </ul>
+      </figure>
+
+      <figure class="contacts">
+        <h2 class="contacts__title">Let´s chat! I´m ready to work on excinting projects</h2>
+        <p class="contacts__text">l.b.malyshka@gmail.com</p>
+      </figure>
+    </div>
+
+  </footer>
+  <button id="downloadCV" class="download-button">Download CV</button>
+</div>
+</body>
